@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  /*     background: linear-gradient(0.25turn, #1d1d1c, #4e4e4d, #acadad); */
+  margin: auto 5rem auto 5rem;
+}
+
+/* .page-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 1.5rem auto 1.5rem auto;
+  text-align: left;
+}
+
+.blog-cards {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.blogs {
+  margin-top: -8rem;
+}
+
+.title {
+  color: gray;
+}
+
+.blog-image {
+  width: 100%;
+  max-height: 500px;
+}
+
+.location-date-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.blog-entry {
+  padding-top: 1rem;
+}
+
+.blog-container {
+  margin: 1rem 18rem 1rem 18rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.text-countries {
+  font-family: "Krona One", sans-serif;
+  font-size: 3em;
+  color: #019fc9;
+  text-align: center;
+}
+
+.text-countries-hr {
+  border-color: #019fc9;
+}
+
+/*
+
+/ footer */
+.footer-copyright {
+  text-align: center;
+  /*   padding: 2% 15%; */
+}
+
+.footer {
+  /* background: linear-gradient(0.25turn, #1d1d1c, #4e4e4d, #acadad); */
+  background: linear-gradient(
+    90deg,
+    rgb(22, 160, 187) 0%,
+    rgb(94, 180, 196) 50%,
+    rgba(0, 186, 223, 1) 100%
+  );
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: black;
+}
+
+button {
+  border: solid 1px black;
+  background-color: transparent;
+  /* border-radius: 50%; */
+}
+
+.morepadding {
+  margin-top: 8em;
+}
+
+.about-wrapper {
+  /* background-color: coral; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-profile {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-profile-names {
+  margin-top: 0.25em;
+  font-family: "Krona One", sans-serif;
+  font-size: 3vw;
+  color: #019fc9;
+}
+
+.about-cards {
+  width: 20vw;
+  margin: 0px 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.about-text {
+  text-align: center;
+  font-weight: bold;
+  margin: 2em;
+}
+
+.about-photo {
+  height: 20vw;
+  width: auto;
+}
+
+.shadowy {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
